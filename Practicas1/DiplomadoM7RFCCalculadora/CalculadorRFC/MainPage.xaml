@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculadorRFC.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a submarine number ten" />
+
+            <Label
+                Text="Hello, World!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label Text="Ingrese su Nombre" />
+            <Entry x:Name="EntryName" Placeholder="Ingrese su Nombre" />
+
+            <Label Text="Ingrese Apellido Paterno" />
+            <Entry x:Name="EntryPaterno" Placeholder="Apellido Paterno" />
+
+            <Label Text="Ingrese Apellido Materno" />
+            <Entry x:Name="EntryMaterno" Placeholder="Apellido Materno" />
+            
+            <DatePicker x:Name="DatePickerFechaNacimiento" />
+            
+            <Label x:Name="labelRFC" Text="RFC Calculado" />
+
+            <Button x:Name="Button_Calcula"
+                Text="Calcular RFC"
+                Clicked="Button_Calcula_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

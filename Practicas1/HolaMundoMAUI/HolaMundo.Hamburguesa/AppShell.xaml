@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="HolaMundo.Hamburguesa.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:HolaMundo.Hamburguesa"
+    xmlns:pages="clr-namespace:HolaMundo.Hamburguesa.Pages"
+    Title="HolaMundo.Hamburguesa">
+
+    <FlyoutItem  Title="Inicio" FlyoutIcon="estrella.png">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Página 1" FlyoutIcon="iphone.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:NewPage1}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Página 2" FlyoutIcon="iphone.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:NewPage2}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Página 3" FlyoutIcon="iphone.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:NewPage3}"/>
+    </FlyoutItem>
+</Shell>

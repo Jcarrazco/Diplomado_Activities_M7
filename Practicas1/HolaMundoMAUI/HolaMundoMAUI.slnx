@@ -1,0 +1,31 @@
+<Solution>
+  <Project Path="HolaMundo.ActivityIndicator01/HolaMundo.ActivityIndicator01.csproj" Id="37775b4c-3d88-4e85-8f15-aa739a544cb2">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.Controles01/HolaMundo.Controles01.csproj" Id="812486b7-8e49-44c4-af99-4011b392ac20">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.Controles02/HolaMundo.Controles02.csproj" Id="92c8ee68-8173-40b5-aeaf-34d90f754f20">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.DateTimePicker01/HolaMundo.DateTimePicker01.csproj" Id="f7349178-7a9a-4741-8592-a84a2db7736e">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.Hamburguesa/HolaMundo.Hamburguesa.csproj" Id="b9bbd851-e3a8-4582-8fa8-5373e8ef881d" />
+  <Project Path="HolaMundo.Imagen01/HolaMundo.Imagen01.csproj" Id="88a1c481-ec89-4028-9349-280db1a9401d">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.InicioSesion/HolaMundo.InicioSesion.csproj" Id="57bbeacd-f1f9-4a0a-9b51-67eba304d0ca">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.Navegacion/HolaMundo.Navegacion.csproj" Id="e99b1a06-73d7-431c-bc15-17f83b4a84fd" />
+  <Project Path="HolaMundo.Toast01/HolaMundo.Toast01.csproj" Id="f9bb36c9-8e42-4e9c-aa39-b7ef6f08d36f">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo/HolaMundo.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundoDisplayAlert/HolaMundoDisplayAlert.csproj" Id="0cfe6d17-3a58-4fc9-82d6-c8d3b2075a6d">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
