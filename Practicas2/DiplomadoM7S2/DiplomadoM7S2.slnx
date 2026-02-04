@@ -1,0 +1,20 @@
+<Solution>
+  <Project Path="HolaMundo.CollectionView01/HolaMundo.CollectionView01.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.ConsumoWSV2/HolaMundo.ConsumoWSV2.csproj" Id="145c374d-5f57-461e-88da-73c4eb0b1d50">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.Picker01/HolaMundo.Picker01.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.Services01/HolaMundo.Services01.csproj" Id="43abdd5a-ee2c-4b6b-b997-cb2026154479">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.Tabs01/HolaMundo.Tabs01.csproj" Id="6b2d4d2e-b11b-47b5-85d1-ba201a4e8a2e">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.Tabs02/HolaMundo.Tabs02.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

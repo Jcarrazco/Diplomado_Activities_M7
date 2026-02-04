@@ -1,0 +1,18 @@
+<Solution>
+  <Project Path="HolaMundo.Binding01/HolaMundo.Binding01.csproj" Id="8f1c5d3b-ff07-4dbc-b14b-ceda4254e7d7">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.MVVM/HolaMundo.MVVM.csproj" Id="14337ec5-0c37-43be-a7cc-356168838411">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.QR01/HolaMundo.QR01.csproj" Id="f3791151-eeef-4939-bf99-971497ad7c91">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.RFC/HolaMundo.RFC.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.ServicioConfiguracion/HolaMundo.ServicioConfiguracion.csproj" Id="0d779981-c3d5-492f-96ae-663e1b983239" />
+  <Project Path="HolaMundoV3/HolaMundoV3.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

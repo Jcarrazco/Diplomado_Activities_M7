@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HolaMundo.ServicioConfiguracion.Pages.InicioSesionPage"
+             Title="InicioSesionPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Inicio de sesion"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label Text="Usuario"/>
+        <Entry x:Name="EntryUsuario"/>
+
+        <Label Text="Contraseña"/>
+        <Entry x:Name="EntryContrasenia"/>
+
+        <Button x:Name="ButtonIncioSesion"
+            Text="Iniciar sesion"
+            Clicked="Button_Clicked"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+    </VerticalStackLayout>
+</ContentPage>

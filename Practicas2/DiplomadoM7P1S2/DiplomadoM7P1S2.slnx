@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="HolaMundo/HolaMundo.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundoV2/HolaMundoV2.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

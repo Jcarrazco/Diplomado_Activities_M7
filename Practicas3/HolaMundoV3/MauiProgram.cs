@@ -1,0 +1,42 @@
+﻿using CommunityToolkit.Maui;
+using HolaMundo.Services;
+using Microsoft.Extensions.Logging;
+
+namespace HolaMundo
+{
+    public static class MauiProgram
+    {
+        public static MauiApp CreateMauiApp()
+        {
+            var builder = MauiApp.CreateBuilder();
+            builder
+                .UseMauiApp<App>()
+                .ConfigureFonts(fonts =>
+                {
+                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                })
+                .UseMauiCommunityToolkit(options =>
+                {
+                    options.SetShouldEnableSnackbarOnWindows(true);
+                });
+
+#if DEBUG
+    		builder.Logging.AddDebug();
+#endif
+
+            builder.Services.AddSingleton<ProductoService>();
+
+            builder.Services.AddHttpClient("Api", client =>
+            {
+                client.BaseAddress = new Uri("https://8p5bxbq3-7243.usw3.devtunnels.ms/api/");
+            })
+            .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+            {
+                ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => true
+            });
+
+            return builder.Build();
+        }
+    }
+}
